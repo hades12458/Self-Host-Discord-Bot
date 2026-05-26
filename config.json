@@ -1,0 +1,27 @@
+{
+  "bot": {
+    "prefix": "!",
+    "embedColor": "#5865F2",
+    "embedErrorColor": "#ED4245",
+    "embedSuccessColor": "#57F287",
+    "embedWarnColor": "#FEE75C",
+    "cooldown": 3
+  },
+  "moderation": {
+    "maxClearMessages": 100,
+    "clearConfirmThreshold": 50,
+    "embedMinDuration": 5,
+    "embedMaxDuration": 3600,
+    "timeoutMaxMinutes": 40320
+  },
+  "rateLimit": {
+    "sensitive": {
+      "windowMs": 60000,
+      "maxCalls": 3
+    },
+    "standard": {
+      "windowMs": 5000,
+      "maxCalls": 5
+    }
+  }
+}
